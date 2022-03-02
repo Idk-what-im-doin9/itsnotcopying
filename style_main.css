@@ -1,3 +1,7 @@
+p1 {
+    font-family: 'Fira Code', monospace;
+}
+
 .top-bar h1{
     color: #7878ff;
     font-family: 'Fira Code', monospace;
@@ -37,7 +41,6 @@ body{
 .top-bar {
     height: 4em;
     background-color: #252525;
-    margin: rpx;
 
 }
 
@@ -57,4 +60,33 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.6em;
+}
+
+.Questions p1{
+    color: #d2d2db;
+    position: absolute;
+    font-size: 130%;
+    left: 20%;
+    right: 20%;
+    transform: translate(0%);
+    line-height: 1.6em;
+}
+
+.Questions {
+    background-color: #252525;
+    height: 30em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.empty_space {
+
+    height: 200px;
+}
+
+.bottom_stuff p1{
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    color: #d2d2db;
 }

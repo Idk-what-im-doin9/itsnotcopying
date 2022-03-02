@@ -39,7 +39,14 @@ body{
     margin: rpx;
 
 }
-
+.Questions {
+    color: #d2d2db;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: -3.5em;
+    line-height: 1em;
+}
 .text-under {
     color: #d2d2db;
     font-family: 'Fira Code', monospace;

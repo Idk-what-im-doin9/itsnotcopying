@@ -90,3 +90,20 @@ body{
     justify-content: center;
     color: #d2d2db;
 }
+
+#cf {
+  }
+  
+  #cf img {
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+    #cf img.top{
+        margin-top: -4em;
+    }
+  #cf img.top:hover {
+    opacity:0;
+  }

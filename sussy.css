@@ -1,0 +1,19 @@
+#cf {
+    position:relative;
+    background-color: aquamarine;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    width: 160em;
+    height: 90em;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #cf img.top:hover {
+    opacity:0;
+  }

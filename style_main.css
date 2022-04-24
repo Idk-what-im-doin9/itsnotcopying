@@ -19,11 +19,25 @@ p1 {
 }
 
 .top-bar .disc {
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+
     right: 10em;
     flex: auto;
 }
 .top-bar .faq {
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+
     right: 4em;
+}
+
+.top-bar .faq:hover, .top-bar .disc:hover {
+    color: #fcdfa7;
 }
 
 .top-bar .work {
@@ -38,9 +52,20 @@ body{
 
 .top-bar {
     height: 4em;
-    background-color: #29335c;
+    background-color: #454957;
+    margin-top: -0.6em;
+
+    -webkit-transition: background-color 1s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out;
+    -o-transition: background-color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
 
 }
+
+.top-bar:hover {
+    background-color: #29335c;
+}
+
 
 .text-under {
     color: #29335c;
@@ -57,7 +82,7 @@ body{
     height: 128px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.6em;
+    margin-top: 1%;
 }
 
 .Questions p1{
